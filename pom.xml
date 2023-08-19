@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <modelVersion>4.0.0</modelVersion>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <parent>
+                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    <groupId>cn.org.thinkcloud</groupId>
+                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    <artifactId>think-cloud-build</artifactId>
+                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    <version>2.0.0.RELEASE</version>
+                                        
+  
+  
+  
+  
+  
+  
+  
+  
+  </parent>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <groupId>jrtp</groupId>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <artifactId>newproj</artifactId>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <version>0.0.1-SNAPSHOT</version>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <packaging>pom</packaging>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <properties>
+                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    <rversion>2.0.0.RELEASE</rversion>
+                                        
+  
+  
+  
+  
+  
+  
+  
+  
+  </properties>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--OWN Dependencies -->
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  <dependencyManagement>
+                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    <dependencies>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      <dependency>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <groupId>${project.groupId}</groupId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <artifactId>newproj-domain</artifactId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <version>0.0.1-SNAPSHOT</version>
+                                                                                    
+      
+      
+      
+      
+      
+      
+      
+      
+      </dependency>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      <dependency>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <groupId>${project.groupId}</groupId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <artifactId>newproj-repo-api</artifactId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <version>0.0.1-SNAPSHOT</version>
+                                                                                    
+      
+      
+      
+      
+      
+      
+      
+      
+      </dependency>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      <dependency>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <groupId>${project.groupId}</groupId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <artifactId>newproj-biz-api</artifactId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <version>0.0.1-SNAPSHOT</version>
+                                                                                    
+      
+      
+      
+      
+      
+      
+      
+      
+      </dependency>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      <dependency>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <groupId>${project.groupId}</groupId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <artifactId>newproj-manager-api</artifactId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <version>0.0.1-SNAPSHOT</version>
+                                                                                    
+      
+      
+      
+      
+      
+      
+      
+      
+      </dependency>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      <dependency>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <groupId>${project.groupId}</groupId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <artifactId>newproj-commons</artifactId>
+                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        <version>0.0.1-SNAPSHOT</version>
+                                                                                    
+      
+      
+      
+      
+      
+      
+      
+      
+      </dependency>
+                                                              
+    
+    
+    
+    
+    
+    
+    
+    
+    </dependencies>
+                                        
+  
+  
+  
+  
+  
+  
+  
+  
+  </dependencyManagement>
+                  
+  
+  
+  
+  
+  
+  
+  
+  
+  <modules>
+                                      
+    
+    
+    
+    
+    
+    
+    
+    
+    <module>newproj-domain</module>
+                                      
+    
+    
+    
+    
+    
+    
+    
+    
+    <module>newproj-commons</module>
+                                  
+    
+    
+    
+    
+    
+    
+    
+    <module>newproj-repo-api</module>
+                              
+    
+    
+    
+    
+    
+    
+    <module>newproj-biz-api</module>
+                          
+    
+    
+    
+    
+    
+    <module>newproj-manager-api</module>
+                      
+    
+    
+    
+    
+    <module>newproj-biz-provider</module>
+                  
+    
+    
+    
+    <module>newproj-repo-provider</module>
+              
+    
+    
+    <module>newproj-manager-provider</module>
+          
+    
+    <module>newproj-ctl</module>
+      
+  </modules>
+                
+
+
+
+
+
+
+
+</project>
